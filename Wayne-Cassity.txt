@@ -1,6 +1,11 @@
-Reference & Notes , --commits 
+Reference & Notes , 
+# --commits 
 -- initial commit , added txt file for references before npm installs
 -- installed packages, no problems
 -- processLength & processLastItem Passed
 -- restarted server, processSum Passed. 
 -- processProduct Passed -- attention to double parentheses
+-- processContains Passed; - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
+
+# Reference
+MDN Array.includes()
