@@ -3,3 +3,4 @@ Reference & Notes , --commits
 -- installed packages, no problems
 -- processLength & processLastItem Passed
 -- restarted server, processSum Passed. 
+-- processProduct Passed -- attention to double parentheses
