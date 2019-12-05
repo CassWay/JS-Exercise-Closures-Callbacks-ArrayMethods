@@ -5,7 +5,12 @@ Reference & Notes ,
 -- processLength & processLastItem Passed
 -- restarted server, processSum Passed. 
 -- processProduct Passed -- attention to double parentheses
--- processContains Passed; - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
+-- processContains Passed; -- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
+-- processDuplicatFree Passed; -- use 2 methods filter & indexOf 
+
+
 
 # Reference
 MDN Array.includes()
+.filter()
+.indexOf()
