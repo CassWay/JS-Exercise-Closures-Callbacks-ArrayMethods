@@ -1,0 +1,2 @@
+Reference & Notes , --commits 
+--initial commit , added txt file for references before npm installs
