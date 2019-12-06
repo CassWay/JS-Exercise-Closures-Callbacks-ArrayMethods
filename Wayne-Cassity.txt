@@ -6,8 +6,9 @@ Reference & Notes ,
 -- restarted server, processSum Passed. 
 -- processProduct Passed -- attention to double parentheses
 -- processContains Passed; -- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
--- processDuplicatFree Passed; -- use 2 methods filter & indexOf 
+-- processDuplicateFree Passed; -- use 2 methods filter & indexOf 
 -- getFullNames Passed; -- forEach to loop though & push to order last-name, first-name
+-- firstNamesAllCaps Passed;  -- map method, change to uppercase; -- take break & end here for night; 
 
 
 
