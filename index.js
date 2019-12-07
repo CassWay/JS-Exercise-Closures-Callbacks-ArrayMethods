@@ -112,7 +112,7 @@ function processSum(numberList, callback) {
  * should return 1000.
 */
 function processProduct(num1, num2, callback) {
-  
+
   return callback((num1 * num2)); 
   
 }
@@ -189,8 +189,8 @@ function processDuplicateFree(list, callback) {
 function getFullNames(runners) {
 
   let names = [];
-  runners.forEach((elem) => {
-    names.push(`${elem.last_name}, ${elem.first_name}`);
+  runners.forEach((runner) => {
+    names.push(`${runner.last_name}, ${runner.first_name}`);
   });
   return names;
 }
@@ -209,7 +209,7 @@ function getFullNames(runners) {
 */
 function firstNamesAllCaps(runners) {
   
-  return runners.map((elem) => `${elem.first_name.toUpperCase()}`); 
+  return runners.map((runner) => `${runner.first_name.toUpperCase()}`); 
 }
 
 /**
@@ -227,7 +227,7 @@ function firstNamesAllCaps(runners) {
 */
 function getRunnersByTShirtSize(runners, tShirtSize) {
   
-  return runners.filter(item => item.shirt_size === tShirtSize) ;
+  return runners.filter(tShirt => tShirt.shirt_size === tShirtSize) ;
 }
 
 /**
@@ -242,7 +242,7 @@ function getRunnersByTShirtSize(runners, tShirtSize) {
 */
 function tallyUpDonations(runners) {
   //  -- map might be overkill --
-  return runners.map((item) => item.donation).reduce(((a, b) => a + b), 0);
+  return runners.map((runner) => runner.donation).reduce(((a, b) => a + b), 0);
 }
 
 /////////////// CLOSURES ///////////////
