@@ -12,6 +12,7 @@ Reference & Notes ,
 -- getRunnersByTShirtSize and tallUpDonation Passed; -- filter for tshirt_size, map & reduce for donations
 -- counterMaker Passed; -- change const to let, return function, increment after count
 -- counterMakerWithLimit Passed; -- start count at -1, if count < increment, else 0
+-- ALL Passed; -- review & re-run & restart, removed console.logs & various items
 
 
 
@@ -21,3 +22,5 @@ MDN Array.includes()
 .indexOf()
 .forEach(elem)
 .push()
+.map()
+.reduce()

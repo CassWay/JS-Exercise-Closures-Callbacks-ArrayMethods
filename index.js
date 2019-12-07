@@ -89,6 +89,7 @@ function processLastItem(stringList, callback) {
  * should return 1000.
 */
 function processSum(numberList, callback) {
+
   return callback(numberList.reduce(((x,y) => x + y), 0));
 }
 
@@ -111,6 +112,7 @@ function processSum(numberList, callback) {
  * should return 1000.
 */
 function processProduct(num1, num2, callback) {
+  
   return callback((num1 * num2)); 
   
 }
@@ -239,7 +241,7 @@ function getRunnersByTShirtSize(runners, tShirtSize) {
  * @returns a number which is the sum of the donations by all runners.
 */
 function tallyUpDonations(runners) {
-  //  -- map may be overkill --
+  //  -- map might be overkill --
   return runners.map((item) => item.donation).reduce(((a, b) => a + b), 0);
 }
 
