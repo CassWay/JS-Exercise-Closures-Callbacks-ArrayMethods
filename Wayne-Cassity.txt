@@ -11,6 +11,7 @@ Reference & Notes ,
 -- firstNamesAllCaps Passed;  -- map method, change to uppercase; -- take break & end here for night; 
 -- getRunnersByTShirtSize and tallUpDonation Passed; -- filter for tshirt_size, map & reduce for donations
 -- counterMaker Passed; -- change const to let, return function, increment after count
+-- counterMakerWithLimit Passed; -- start count at -1, if count < increment, else 0
 
 
 
