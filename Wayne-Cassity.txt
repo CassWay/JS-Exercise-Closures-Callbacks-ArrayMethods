@@ -1,0 +1,27 @@
+Reference & Notes , 
+# --commits 
+-- initial commit , added txt file for references before npm installs
+-- installed packages, no problems
+-- processLength & processLastItem Passed
+-- restarted server, processSum Passed. 
+-- processProduct Passed -- attention to double parentheses
+-- processContains Passed; -- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
+-- processDuplicateFree Passed; -- use 2 methods filter & indexOf 
+-- getFullNames Passed; -- forEach to loop though & push to order last-name, first-name
+-- firstNamesAllCaps Passed;  -- map method, change to uppercase; -- take break & end here for night; 
+-- getRunnersByTShirtSize and tallUpDonation Passed; -- filter for tshirt_size, map & reduce for donations
+-- counterMaker Passed; -- change const to let, return function, increment after count
+-- counterMakerWithLimit Passed; -- start count at -1, if count < increment, else 0
+-- ALL Passed; -- review & re-run & restart server, removed console.logs & various items
+-- ALL Passed; -- updated (looked funky)
+
+
+
+# Reference
+MDN Array.includes()
+.filter()
+.indexOf()
+.forEach(elem)
+.push()
+.map()
+.reduce()
