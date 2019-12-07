@@ -239,7 +239,7 @@ function getRunnersByTShirtSize(runners, tShirtSize) {
  * @returns a number which is the sum of the donations by all runners.
 */
 function tallyUpDonations(runners) {
-  
+  //  -- map may be overkill --
   return runners.map((item) => item.donation).reduce(((a, b) => a + b), 0);
 }
 
@@ -261,9 +261,9 @@ function tallyUpDonations(runners) {
 */
 function counterMaker() {
   // BROKEN CODE STARTS
-  const count = 0;
-  function counter() {
-    ++count
+  let count = 0;
+  return function counter() {
+    return count++
   }
   // BROKEN CODE ENDS
 }
